@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to King Sukh Guest House - offering the perfect blend of comfort, luxury, and elegance. Book your stay today!">
+    <meta name="keywords" content="King Sukh Guest House, Luxury Stay, Affordable Rooms, Booking, Hospitality">
+    <meta name="author" content="King Sukh Guest House">
+    <title>King Sukh Guest House</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <img src="assets/guest_house.jpeg" alt="King Sukh Guest House Logo" style="height: 50px;"> King Sukh Guest House
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#rooms">Rooms</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#booking">Booking</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="text-center bg-light text-dark py-5" style="background-image: url('assets/hero-bg.jpg'); background-size: cover; background-position: center;">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Welcome to King Sukh Guest House</h1>
+            <p class="lead">A perfect blend of comfort, luxury, and elegance.</p>
+            <a href="#about" class="btn btn-primary btn-lg">Explore More</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>About Us</h2>
+                    <p>Welcome to King Sukh Guest House—where comfort, elegance, and personalized hospitality come together to create the perfect travel experience. Ideally located for both leisure and business travelers, King Sukh Guest House places you at the heart of vibrant markets, stunning natural landscapes, and key local attractions. Discover the royal treatment you deserve.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/about_section.jpg" alt="About King Sukh Guest House" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section id="rooms" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Rooms</h2>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="assets/deluxe.jpeg" alt="Deluxe Room" class="img-fluid mb-3">
+                    <h4>Deluxe Room</h4>
+                    <p>Elegant and spacious rooms with modern amenities.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="assets/family.jpeg" alt="Family Suite" class="img-fluid mb-3">
+                    <h4>Family Suite</h4>
+                    <p>Perfect for families, offering extra space and comfort.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="assets/single.jpeg" alt="Single Room" class="img-fluid mb-3">
+                    <h4>Single Room</h4>
+                    <p>Cozy rooms ideal for solo travelers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Gallery</h2>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <img src="assets/swimming.jpeg" alt="Swimming Pool" class="img-fluid rounded">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <img src="assets/food.jpg" alt="Gourmet Food" class="img-fluid rounded">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <img src="assets/disco.jpeg" alt="Disco Night" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required aria-label="Your full name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required aria-label="Your email address">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" required aria-label="Your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/contact.jpeg" alt="Contact Us" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Book Your Stay</h2>
+            <form action="book.html" method="GET">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="bookingName" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="bookingName" name="name" required aria-label="Booking name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="bookingEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="bookingEmail" name="email" required aria-label="Booking email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone</label>
+                            <input type="tel" class="form-control" id="phone" name="phone" required aria-label="Phone number">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="roomType" class="form-label">Room Type</label>
+                            <select class="form-select" id="roomType" name="roomType" required aria-label="Select room type">
+                                <option value="deluxe">Deluxe Room</option>
+                                <option value="family-suite">Family Suite</option>
+                                <option value="single-room">Single Room</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="checkIn" class="form-label">Check-in Date</label>
+                            <input type="date" class="form-control" id="checkIn" name="checkIn" required aria-label="Check-in date">
+                        </div>
+                        <div class="mb-3">
+                            <label for="checkOut" class="form-label">Check-out Date</label>
+                            <input type="date" class="form-control" id="checkOut" name="checkOut" required aria-label="Check-out date">
+                        </div>
+                        <div class="mb-3">
+                            <label for="notes" class="form-label">Additional Notes</label>
+                            <textarea class="form-control" id="notes" name="notes" rows="3" aria-label="Additional notes"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Book Now</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2024 King Sukh Guest House. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#" class="text-white">Privacy Policy</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-white">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Dynamic Navbar JS -->
+    <script>
+        document.addEventListener("scroll", () => {
+            const sections = document.querySelectorAll("section");
+            const navLinks = document.querySelectorAll(".nav-link");
+            let currentSection = "";
+
+            sections.forEach((section) => {
+                const sectionTop = section.offsetTop - 70; // Adjust for navbar height
+                if (pageYOffset >= sectionTop) {
+                    currentSection = section.getAttribute("id");
+                }
+            });
+
+            navLinks.forEach((link) => {
+                link.classList.remove("active");
+                if (link.getAttribute("href").includes(currentSection)) {
+                    link.classList.add("active");
+                }
+            });
+        });
+    </script>
+</body>
+</html>
